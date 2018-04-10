@@ -1,8 +1,8 @@
 /**
- * <program/assignment name>
- * by <Your Name>
+ * processing-console-assignment-3-text-files
+ * by Yaqub Ibrahim
  * 
- * <Two sentence description of program>
+ * Virtual resturant where the program plays the role as a subservient and accomodating waiter
  * 
  */
  
