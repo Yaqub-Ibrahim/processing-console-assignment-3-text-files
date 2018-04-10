@@ -8,14 +8,14 @@
  
 void setup() {
 int name = 0;
-int job = 1;
-int superPower = 2;
+int mealorder = 1;
+int beverage = 2;
 
 String lines[] = loadStrings("list.txt");
 
 println("Name:", lines[name]);
-println("Job title:", lines[job]);
-println("Super power:", lines[superPower]);
+println("Meal Order:", lines[mealorder]);
+println("Beverage:", lines[beverage]);
  
   
 }
