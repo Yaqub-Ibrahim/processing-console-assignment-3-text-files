@@ -8,20 +8,21 @@
  
 void setup() {
 int name = 0;
-int mealorder = 1;
-int beverage = 2;
-int dailyspecial1 = 3;
-int dailyspecial2 = 4;
-int dailyspecial3 = 5;
+int mealorder = 8;
+int beverage = 5;
+int dailyspecial1 = 0;
+int dailyspecial2 = 1;
+int dailyspecial3 = 2;
 
 String lines[] = loadStrings("list.txt");
 String lines2[] = loadStrings("list2.txt");
 
 
 print("Good evening,", lines[name]);
-println(". Nice to meet you");
-println("Meal Order:", lines[mealorder]);
-println("Beverage:", lines[beverage]);
+println(". Nice to meet you.");
+print("Our daily specials are…", lines2[dailyspecial1]);
+print(",", lines2[dailyspecial2]);
+print(", and",lines2[dailyspecial3],".");
  
   
 }
