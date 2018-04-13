@@ -8,8 +8,6 @@
  
 void setup() {
 int name = 0;
-int mealorder = 8;
-int beverage = 5;
 int dailyspecial1 = 0;
 int dailyspecial2 = 1;
 int dailyspecial3 = 2;
@@ -33,8 +31,9 @@ print("And we currently have five types of drinks on the menu, ", lines3[beverag
 print(",", lines3[beverage2]);
 print(",", lines3[beverage3]);
 print(",",lines3[beverage4]);
-print(", and", lines3[beverage5],".");
-
+println(", and", lines3[beverage5],".");
+println("I see that you are ordering", lines2[dailyspecial1], "with a", lines3[beverage4], ".");
+print("Good choice", lines[name], ", I will be out in a minute with your", lines2[dailyspecial1], "and your" , lines3[beverage4], "right away.");
   
 }
 
