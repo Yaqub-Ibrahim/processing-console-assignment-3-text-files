@@ -29,8 +29,12 @@ println(". Nice to meet you.");
 print("Our daily specials are…", lines2[dailyspecial1]);
 print(",", lines2[dailyspecial2]);
 println(", and",lines2[dailyspecial3],".");
-print("And we currently have five types of drinks on the menu,  ", lines3[beverage1]);
- 
+print("And we currently have five types of drinks on the menu, ", lines3[beverage1]);
+print(",", lines3[beverage2]);
+print(",", lines3[beverage3]);
+print(",",lines3[beverage4]);
+print(", and", lines3[beverage5],".");
+
   
 }
 
